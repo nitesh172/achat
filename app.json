@@ -2,6 +2,23 @@
   "expo": {
     "name": "achat",
     "slug": "achat",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      "expo-font"
+    ],
+    "scheme": "achat",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2b54ab4-6096-4cd9-b3dd-b46bf2a4fd34"
+      }
+    },
+    "owner": "nitesh172",
+    "android": {
+      "package": "com.nitesh172.achat"
+    }
   }
 }
